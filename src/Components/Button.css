@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    height: 4em;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #e0e1e6;
+    color: #888;
+    outline: 1px solid #888;
+    border-radius: 9%;
+    box-sizing: border-box;
+}
+.button:hover {
+      background-color: lightgray;
+      box-sizing: border-box;
+      max-height: 4em;
+}
+.operator {
+    background-color: #fe9241;
+    color: #fff;
+  }
+.operator:hover {
+    background-color: orangered;
+
+  }
