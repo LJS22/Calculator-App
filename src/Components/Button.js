@@ -5,7 +5,6 @@ class Button extends Component {
     isOperator = val => {
         return !isNaN(val) || val === "." || val === "=";
     };
-
     render() {
         return (
             <div
